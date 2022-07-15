@@ -1,0 +1,337 @@
+17:03:46 | DEBUG | __init__: 623 | Using proactor: IocpProactor
+17:03:46 | DEBUG | make_request: 133 | Make request: "getMe" with data: "{}" and files "None"
+17:03:46 | DEBUG | check_result: 95 | Response for getMe: [200] "'{"ok":true,"result":{"id":5555683553,"is_bot":true,"first_name":"test","username":"test_303030_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+17:03:46 | INFO | _welcome: 362 | Bot: test [@test_303030_bot]
+17:03:46 | INFO | start_polling: 358 | Start polling.
+17:03:46 | DEBUG | make_request: 133 | Make request: "getWebhookInfo" with data: "{}" and files "None"
+17:03:46 | DEBUG | check_result: 95 | Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+17:03:46 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+17:03:58 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":39742661,\n"message":{"message_id":30,"from":{"id":5424187874,"is_bot":false,"first_name":"\\u041c\\u0430\\u0440\\u0438\\u044f","language_code":"ru"},"chat":{"id":5424187874,"first_name":"\\u041c\\u0430\\u0440\\u0438\\u044f","type":"private"},"date":1657634638,"text":"ghbdtn"}}]}'"
+17:03:58 | DEBUG | start_polling: 395 | Received 1 updates.
+17:03:58 | DEBUG | make_request: 133 | Make request: "sendMessage" with data: "{'chat_id': 5424187874, 'text': 'ghbdtn'}" and files "None"
+17:03:58 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742662, 'timeout': 20}" and files "None"
+17:03:58 | DEBUG | check_result: 95 | Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":31,"from":{"id":5555683553,"is_bot":true,"first_name":"test","username":"test_303030_bot"},"chat":{"id":5424187874,"first_name":"\\u041c\\u0430\\u0440\\u0438\\u044f","type":"private"},"date":1657634638,"text":"ghbdtn"}}'"
+17:04:19 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+17:04:19 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742662, 'timeout': 20}" and files "None"
+17:04:39 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+17:04:39 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742662, 'timeout': 20}" and files "None"
+17:04:56 | INFO | stop_polling: 433 | Stop polling...
+17:04:56 | WARNING | start_polling: 329 | Goodbye!
+15:04:00 | DEBUG | __init__: 623 | Using proactor: IocpProactor
+15:04:00 | DEBUG | make_request: 133 | Make request: "getMe" with data: "{}" and files "None"
+15:04:00 | DEBUG | check_result: 95 | Response for getMe: [200] "'{"ok":true,"result":{"id":5555683553,"is_bot":true,"first_name":"test","username":"test_303030_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+15:04:00 | INFO | _welcome: 362 | Bot: test [@test_303030_bot]
+15:04:00 | INFO | start_polling: 358 | Start polling.
+15:04:00 | DEBUG | make_request: 133 | Make request: "getWebhookInfo" with data: "{}" and files "None"
+15:04:00 | DEBUG | check_result: 95 | Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":1}}'"
+15:04:00 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+15:04:00 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":39742662,\n"message":{"message_id":32,"from":{"id":5424187874,"is_bot":false,"first_name":"\\u041c\\u0430\\u0440\\u0438\\u044f","language_code":"ru"},"chat":{"id":5424187874,"first_name":"\\u041c\\u0430\\u0440\\u0438\\u044f","type":"private"},"date":1657636173,"text":"\\u043f\\u0440\\u0438\\u0432\\u0435\\u0442"}}]}'"
+15:04:00 | DEBUG | start_polling: 395 | Received 1 updates.
+15:04:00 | DEBUG | make_request: 133 | Make request: "sendMessage" with data: "{'chat_id': 5424187874, 'text': 'привет'}" and files "None"
+15:04:00 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:04:00 | DEBUG | check_result: 95 | Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":33,"from":{"id":5555683553,"is_bot":true,"first_name":"test","username":"test_303030_bot"},"chat":{"id":5424187874,"first_name":"\\u041c\\u0430\\u0440\\u0438\\u044f","type":"private"},"date":1657713841,"text":"\\u043f\\u0440\\u0438\\u0432\\u0435\\u0442"}}'"
+15:04:21 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:04:21 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:04:41 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:04:41 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:05:01 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:05:01 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:05:22 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:05:22 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:05:42 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:05:42 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:06:02 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:06:02 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:06:23 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:06:23 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:06:43 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:06:43 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:07:03 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:07:03 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:07:23 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:07:23 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:07:43 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:07:43 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:08:04 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:08:04 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:08:24 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:08:24 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:08:44 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:08:44 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:09:05 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:09:05 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:09:25 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:09:25 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:09:45 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:09:45 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:10:06 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:10:06 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:10:26 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:10:26 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:10:47 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:10:47 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:11:07 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:11:07 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:11:27 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:11:27 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:11:47 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:11:47 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:12:08 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:12:08 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:12:28 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:12:28 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:12:48 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:12:48 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:13:08 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:13:08 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:13:29 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:13:29 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:13:49 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:13:49 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:14:09 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:14:09 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:14:29 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:14:29 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:14:49 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:14:50 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:15:10 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:15:10 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:15:30 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:15:30 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:15:50 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:15:50 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:16:10 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:16:10 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:16:30 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:16:31 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:16:51 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:16:51 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:17:11 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:17:11 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:17:31 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:17:31 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:17:51 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:17:51 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:18:11 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:18:12 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:18:32 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:18:32 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:18:52 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:18:52 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:19:12 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:19:12 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:19:32 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:19:32 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:19:52 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:19:53 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:20:13 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:20:13 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:20:33 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:20:33 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:20:53 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:20:53 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:21:13 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:21:13 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:21:33 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:21:34 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:21:54 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:21:54 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:22:14 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:22:14 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:22:34 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:22:34 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:22:54 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:22:54 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:23:14 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:23:15 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:23:35 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:23:35 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:23:55 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:23:55 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:24:15 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:24:15 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:24:35 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:24:35 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:24:55 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:24:56 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:25:16 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:25:16 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:25:36 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:25:36 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:25:56 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:25:56 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:26:16 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:26:16 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:26:36 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:26:37 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:26:57 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:26:57 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:27:17 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:27:17 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:27:37 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:27:37 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:27:57 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:27:57 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:28:17 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:28:18 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:28:38 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:28:38 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:28:58 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:28:58 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:29:18 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:29:18 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:29:38 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:29:38 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:29:58 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:29:59 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:30:19 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:30:19 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:30:39 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:30:39 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:30:59 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:31:00 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:31:20 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:31:20 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:31:40 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:31:40 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:32:00 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:32:00 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:32:20 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:32:20 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:32:41 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:32:41 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:33:01 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:33:01 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:33:21 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:33:21 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:33:41 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:33:41 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:34:01 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:34:02 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:34:22 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:34:22 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:34:42 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:34:42 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:35:02 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:35:02 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:35:22 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:35:22 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:35:43 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:35:43 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:36:03 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:36:03 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:36:23 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:36:23 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:36:44 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:36:44 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:37:04 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:37:04 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:37:24 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:37:24 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:37:44 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:37:44 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:38:05 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:38:05 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:38:25 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:38:25 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:38:45 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:38:45 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:39:05 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:39:05 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:39:25 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:39:25 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:39:45 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:39:46 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:40:06 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:40:06 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:40:26 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:40:26 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:40:46 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:40:46 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:41:06 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:41:06 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:41:26 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:41:26 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:41:46 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:41:47 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:42:07 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:42:07 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:42:27 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:42:27 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:42:47 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:42:47 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:43:07 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:43:07 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:43:27 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:43:28 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:43:48 | DEBUG | check_result: 95 | Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+15:43:48 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:44:06 | DEBUG | check_result: 95 | Response for getUpdates: [409] "'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}'"
+15:44:06 | ERROR | start_polling: 390 | Cause exception while getting updates.
+Traceback (most recent call last):
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+15:44:11 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:44:16 | DEBUG | check_result: 95 | Response for getUpdates: [409] "'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}'"
+15:44:16 | ERROR | start_polling: 390 | Cause exception while getting updates.
+Traceback (most recent call last):
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+15:44:21 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:44:27 | DEBUG | check_result: 95 | Response for getUpdates: [409] "'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}'"
+15:44:27 | ERROR | start_polling: 390 | Cause exception while getting updates.
+Traceback (most recent call last):
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+15:44:32 | DEBUG | make_request: 133 | Make request: "getUpdates" with data: "{'offset': 39742663, 'timeout': 20}" and files "None"
+15:44:37 | DEBUG | check_result: 95 | Response for getUpdates: [409] "'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}'"
+15:44:37 | ERROR | start_polling: 390 | Cause exception while getting updates.
+Traceback (most recent call last):
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "Z:\Troshkin Artem\MariaLisimova\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+15:44:40 | INFO | stop_polling: 433 | Stop polling...
+15:44:40 | WARNING | start_polling: 329 | Goodbye!
