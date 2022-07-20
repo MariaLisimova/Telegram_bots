@@ -19,7 +19,14 @@ async def sql_add_account(login, password):
 
 
 async def delete_all_accounts(message):
-    pass
+    global cur, base
+    try:
+        sql_update_query = 'DELETE from accounts'
+        cur.execute(sql_update_query)
+        base.commit()
+        await bot.send_message(message.from_user.id, 'Все аккаунты удалены')
+    except sq.Error as error:
+        await bot.send_message(message.from_user.id, f'Произошла ошибка в работе с базой данных:\n{error}')
 
 
 async def sql_read_info(message):
@@ -34,3 +41,20 @@ async def sql_read_info(message):
         await bot.send_message(message.from_user.id, accounts)
     except:
         await bot.send_message(message.from_user.id, 'Добавленных аккаунтов нет')
+
+
+async def delete_account_db(message, login):
+    global cur, base
+    try:
+        count = 0
+        for log in cur.execute('SELECT * FROM accounts').fetchall():
+            if log[0] == login:
+                sql_update_query = 'DELETE from accounts where login = ?'
+                cur.execute(sql_update_query, (login,))
+                base.commit()
+                await bot.send_message(message.from_user.id, f'Аккаунт [{login}] успешно удален')
+                count += 1
+            if count == 0:
+                await bot.send_message(message.from_user.id, f'Аккаунт [{login}] не найден')
+    except sq.Error as error:
+        await bot.send_message(message.from_user.id, f'Ошибка при работе с базой данных{error}')
